@@ -12,4 +12,5 @@ npm audit fix
 npm start
 ```
 Then open a browser at [http://localhost:3000/](http://localhost:3000/)
+
 It's highly recommended to use Chrome instead of Firefox
