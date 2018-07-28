@@ -27,6 +27,7 @@ const slide = (
       registerServiceWorker();`}
       them="dark"
       clasName="largerTextSize"
+      style={{ fontSize: '60%' }}
     />
   </Slide>
 )
