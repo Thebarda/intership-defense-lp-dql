@@ -3,19 +3,11 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
-  BlockQuote,
-  Cite,
   Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-  Text,
 } from 'spectacle';
 
-import slide1 from './slides/slide1'
-import slide2 from './slides/slide2'
+import firstPage from './slides/firstPage'
+import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
 
@@ -27,6 +19,7 @@ require('normalize.css');
 
 const theme = createTheme(
   {
+    background: "#03A9FC",
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
@@ -46,12 +39,12 @@ export default class Presentation extends React.Component {
         transitionDuration={500}
         theme={theme}
         controls={true}
-        progress="bar"
+        progress="pacman"
       >
-        {slide1}
-        {slide2}
-        {slide3}
+        {firstPage}
         {slide4}
+        {slide3}
+        {endPage}
       </Deck>
     );
   }

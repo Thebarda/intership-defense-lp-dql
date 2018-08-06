@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
+    "react-image-file": "^0.3.0",
     "spectacle-scripts": "2.0.0"
   },
   "scripts": {
