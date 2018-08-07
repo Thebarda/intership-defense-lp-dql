@@ -7,6 +7,8 @@ import {
 } from 'spectacle';
 
 import firstPage from './slides/firstPage'
+import titlePresentationEtudiant from './slides/titlePresentationEtudiant'
+import presentationEtudiant from './slides/presentationEtudiant'
 import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
@@ -19,7 +21,7 @@ require('normalize.css');
 
 const theme = createTheme(
   {
-    background: "#03A9FC",
+    background: "black",
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
@@ -42,8 +44,8 @@ export default class Presentation extends React.Component {
         progress="pacman"
       >
         {firstPage}
-        {slide4}
-        {slide3}
+        {titlePresentationEtudiant}
+        {presentationEtudiant}
         {endPage}
       </Deck>
     );

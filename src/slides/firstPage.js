@@ -1,32 +1,31 @@
 import React from 'react'
 import {
-  BlockQuote,
-  Cite,
-  Deck,
   Heading,
-  ListItem,
-  List,
-  Quote,
   Slide,
   Text,
+  BlockQuote,
+  Cite,
 } from 'spectacle'
 import UPS from '../img/UPS.png'
 import bleemeo from '../img/logo_bleemeo.png'
 
 const slide = (
   <Slide transition={['zoom']} bgColor="primary">
-    <img src={UPS} alt='logo UPS'/>
-
-    <br /> <br /><br /> <br />
+    <img style={{ position: 'absolute', marginTop: '-15rem', marginLeft: "-22em" }} src={UPS} alt='logo UPS'/>
+    <img style={{ position: 'absolute', marginTop: '-15rem', marginLeft: "15rem" }} src={bleemeo} alt='logo Bleemeo'/>
     <Heading size={1} fit caps lineHeight={1} textColor="secondary">
       Développement web et mobile de la solution Bleemeo
     </Heading>
     
-    <Text margin="10px 0 0" textColor="background" size={6} bold>
+    <Text margin="10px 0 0" textColor="background" size={6}>
       Solution Saas d&apos;infrastructure IT
     </Text>
-    <br /> <br /><br />
-    <img src={bleemeo} alt='logo Bleemeo'/>
+    <BlockQuote>
+      <Cite textColor="secondary">Tom Darneix</Cite>
+    </BlockQuote>
+    <Text style={{ position: 'absolute', marginTop: '8rem', marginLeft: "-15rem", fontSize: '80%' }}>
+      Soutenance du 10 Septembre 2018
+    </Text>
   </Slide>
 )
 
