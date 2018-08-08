@@ -23,7 +23,7 @@ const slide = (
       </Appear>
       <Appear>
         <ListItem>
-          Bilan professionnelle
+          Bilan professionnel
         </ListItem>
       </Appear>
     </List>
