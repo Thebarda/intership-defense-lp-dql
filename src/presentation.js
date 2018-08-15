@@ -12,6 +12,7 @@ import introduction from './slides/introduction'
 import annonceSujetWeb from './slides/annonceSujetWeb'
 import annonceSujetMobile from './slides/annonceSujetMobile'
 import sommaire from './slides/sommaie'
+import presentationEntreprise from './slides/presentationEntreprise'
 import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
@@ -52,6 +53,7 @@ export default class Presentation extends React.Component {
         {annonceSujetWeb}
         {annonceSujetMobile}
         {sommaire}
+        {presentationEntreprise}
         {endPage}
       </Deck>
     );

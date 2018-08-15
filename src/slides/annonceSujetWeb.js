@@ -27,17 +27,17 @@ const slide = (
       </Appear>
       <Appear>
         <ListItem textSize={32}>
-          Correction de dysfonctionnement
+          Correction de dysfonctionnements
         </ListItem>
       </Appear>
     </List>
-    <Appear>
+    {/*<Appear>
       <div>  
         <img src={react} alt="react" style={{ position: 'absolute', width: "10rem", marginLeft: '-20rem' }} />
         <img src={html} alt="react" style={{ position: 'absolute', width: "15rem", marginLeft: '-10rem' }} />
         <img src={webpack} alt="react" style={{ position: 'absolute', width: "7rem", marginLeft: '7rem' }} />
       </div>
-    </Appear>
+    </Appear>*/}
   </Slide>
 )
 

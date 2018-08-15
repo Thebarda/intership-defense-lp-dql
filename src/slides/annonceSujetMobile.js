@@ -21,7 +21,7 @@ const slide = (
       </Appear>
       <Appear>
         <ListItem textSize={32}>
-          Ajout amélioration de fonctionnalités
+          Ajout de fonctionnalités
         </ListItem>
       </Appear>
       <Appear>
@@ -31,16 +31,16 @@ const slide = (
       </Appear>
       <Appear>
         <ListItem textSize={32}>
-          Correction de dysfonctionnement
+          Correction de dysfonctionnements
         </ListItem>
       </Appear>
     </List>
-    <Appear>
+    {/*<Appear>
       <div>  
         <img src={react} alt="react" style={{ position: 'absolute', width: "10rem", marginLeft: '-13rem' }} />
         <img src={gradle} alt="react" style={{ position: 'absolute', width: "6rem" }} />
       </div>
-    </Appear>
+    </Appear>*/}
   </Slide>
 )
 

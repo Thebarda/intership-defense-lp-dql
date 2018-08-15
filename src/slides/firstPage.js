@@ -18,7 +18,7 @@ const slide = (
     </Heading>
     
     <Text margin="10px 0 0" textColor="background" size={6}>
-      Solution Saas d&apos;infrastructure IT
+      Solution Saas de monitoring d&apos;infrastructure IT
     </Text>
     <BlockQuote>
       <Cite textColor="secondary">Tom Darneix</Cite>
