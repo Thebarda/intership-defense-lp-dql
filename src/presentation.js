@@ -7,8 +7,11 @@ import {
 } from 'spectacle';
 
 import firstPage from './slides/firstPage'
-import titlePresentationEtudiant from './slides/titlePresentationEtudiant'
-import presentationEtudiant from './slides/presentationEtudiant'
+import titleIntroduction from './slides/titleIntroduction'
+import introduction from './slides/introduction'
+import annonceSujetWeb from './slides/annonceSujetWeb'
+import annonceSujetMobile from './slides/annonceSujetMobile'
+import sommaire from './slides/sommaie'
 import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
@@ -44,8 +47,11 @@ export default class Presentation extends React.Component {
         progress="pacman"
       >
         {firstPage}
-        {titlePresentationEtudiant}
-        {presentationEtudiant}
+        {titleIntroduction}
+        {introduction}
+        {annonceSujetWeb}
+        {annonceSujetMobile}
+        {sommaire}
         {endPage}
       </Deck>
     );

@@ -13,7 +13,7 @@ const slide = (
   <Slide transition={['zoom']} bgColor="primary">
     <img style={{ position: 'absolute', marginTop: '-15rem', marginLeft: "-22em" }} src={UPS} alt='logo UPS'/>
     <img style={{ position: 'absolute', marginTop: '-15rem', marginLeft: "15rem" }} src={bleemeo} alt='logo Bleemeo'/>
-    <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+    <Heading size={5} style={{ fontSize: '90%' }} fit caps lineHeight={1} textColor="secondary">
       Développement web et mobile de la solution Bleemeo
     </Heading>
     
