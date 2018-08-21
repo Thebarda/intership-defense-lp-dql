@@ -8,8 +8,7 @@ config.devServer = {
     inline: true,
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000,
-    open: true
+    port: 3000
 }
 config.watchOptions =  {
     aggregateTimeout: 300,

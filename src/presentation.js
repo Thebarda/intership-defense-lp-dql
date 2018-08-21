@@ -10,9 +10,15 @@ import firstPage from './slides/firstPage'
 import titleIntroduction from './slides/titleIntroduction'
 import introduction from './slides/introduction'
 import annonceSujetWeb from './slides/annonceSujetWeb'
-import annonceSujetMobile from './slides/annonceSujetMobile'
 import sommaire from './slides/sommaie'
 import presentationEntreprise from './slides/presentationEntreprise'
+import devEnv from './slides/presentationDev'
+import presWebMobile from './slides/titleWeb'
+import webApp from './slides/webApp'
+import thresholds from './slides/affichageThresholds'
+import titleMobile from './slides/titleMobile.js'
+import mobileApp from './slides/mobileApp'
+import reactNavigation from './slides/reactNavigation'
 import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
@@ -51,9 +57,14 @@ export default class Presentation extends React.Component {
         {titleIntroduction}
         {introduction}
         {annonceSujetWeb}
-        {annonceSujetMobile}
         {sommaire}
         {presentationEntreprise}
+        {presWebMobile}
+        {webApp}
+        {thresholds}
+        {titleMobile}
+        {mobileApp}
+        {reactNavigation}
         {endPage}
       </Deck>
     );

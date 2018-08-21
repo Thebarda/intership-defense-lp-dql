@@ -6,8 +6,6 @@ import {
   Slide,
   Heading,
 } from 'spectacle'
-import react from '../img/react.png'
-import gradle from '../img/gradle.png'
 
 const slide = (
   <Slide bgColor="background" maxWidth={100} maxHeight={100}>

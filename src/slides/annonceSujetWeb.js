@@ -6,14 +6,10 @@ import {
   Slide,
   Heading,
 } from 'spectacle'
-import react from '../img/react.png'
-import html from '../img/htmlcssjs.png'
-import webpack from '../img/webpack.png'
 
 const slide = (
   <Slide bgColor="background">
     <Heading size={4} textColor="primary" lineHeight={2}>Contenu du stage</Heading>
-    <Heading size={5} textColor="tertiary">Développement web</Heading>
     <List textColor="tertiary">
       <Appear>
         <ListItem textSize={32}>
@@ -28,6 +24,11 @@ const slide = (
       <Appear>
         <ListItem textSize={32}>
           Correction de dysfonctionnements
+        </ListItem>
+      </Appear>
+      <Appear>
+        <ListItem textSize={32}>
+          Mise à niveau de l&apos;application (mobile)
         </ListItem>
       </Appear>
     </List>
