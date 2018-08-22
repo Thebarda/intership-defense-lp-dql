@@ -16,9 +16,12 @@ import devEnv from './slides/presentationDev'
 import presWebMobile from './slides/titleWeb'
 import webApp from './slides/webApp'
 import thresholds from './slides/affichageThresholds'
+import newHomePage from './slides/webApp2'
 import titleMobile from './slides/titleMobile.js'
 import mobileApp from './slides/mobileApp'
 import reactNavigation from './slides/reactNavigation'
+import feedback from './slides/feedbackPerso'
+import conclusion from './slides/conclusion'
 import endPage from './slides/endPage'
 import slide3 from './slides/slide3'
 import slide4 from './slides/slide4'
@@ -62,9 +65,12 @@ export default class Presentation extends React.Component {
         {presWebMobile}
         {webApp}
         {thresholds}
+        {newHomePage}
         {titleMobile}
         {mobileApp}
         {reactNavigation}
+        {feedback}
+        {conclusion}
         {endPage}
       </Deck>
     );

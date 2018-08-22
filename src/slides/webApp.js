@@ -10,6 +10,7 @@ import react from '../img/react.png'
 import html from '../img/htmlcssjs.png'
 import webpack from '../img/webpack.png'
 import bs from '../img/bootstrap-logo.png'
+import node from '../img/node.jpg'
 
 const slide = (
     <Slide bgColor="background" maxWidth={100} maxHeight={100}>
@@ -27,6 +28,7 @@ const slide = (
                 <img src={html} alt="react" style={{ position: 'absolute', width: "15rem", marginLeft: '-10rem' }} />
                 <img src={webpack} alt="react" style={{ position: 'absolute', width: "7rem", marginLeft: '7rem' }} />
                 <img src={bs} style={{ position: 'absolute', width: "7rem", marginLeft: '13rem' }} />
+                <img src={node} style={{ position: 'absolute', width: "9rem", marginLeft: '21rem', marginTop: '1rem' }} />
             </div>
         </Appear>
     </Slide>
