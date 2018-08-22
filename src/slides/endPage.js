@@ -19,7 +19,7 @@ const slide = (
     </Heading>
     <br /> <br /> <br />
     <Text textSize="22" textColor="primary">
-      Présentation réalisé avec <br /> <img style={{ width: "11rem" }} src={react} alt="logo React" />
+      Soutenance réalisée avec <br /> <img style={{ width: "11rem" }} src={react} alt="logo React" />
     </Text>
   </Slide>
 )
