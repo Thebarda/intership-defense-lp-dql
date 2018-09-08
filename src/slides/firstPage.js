@@ -24,7 +24,7 @@ const slide = (
       <Cite textColor="secondary">Tom Darneix</Cite>
     </BlockQuote>
     <Text style={{ position: 'absolute', marginTop: '8rem', marginLeft: "-15rem", fontSize: '80%' }}>
-      Soutenance du 10 Septembre 2018
+      Soutenance du 11 Septembre 2018
     </Text>
   </Slide>
 )
