@@ -2,7 +2,7 @@
 ```
 npm i
 ```
-You can fix vulnerabilites with this (npm > 6.0.0):
+You can fix vulnerabilites with this command (npm > 6.0.0):
 ```
 npm audit fix
 ```
