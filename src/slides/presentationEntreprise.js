@@ -13,7 +13,7 @@ const slide = (
         <List textColor="tertiary">
         <Appear>
             <ListItem textSize={32}>
-                Crééé en 2015
+                Créée en 2015
             </ListItem>
         </Appear>
         <Appear>
