@@ -19,7 +19,7 @@ const slide = (
               Directeur de Bleemeo
             </ListItem>
             <ListItem textSize="32">
-              Organisateur du Capitole du libre
+              Organisateur du Capitole du Libre
             </ListItem>
           </List>
         </ListItem>

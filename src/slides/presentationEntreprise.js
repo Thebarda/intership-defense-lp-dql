@@ -18,7 +18,7 @@ const slide = (
         </Appear>
         <Appear>
             <ListItem textSize={32}>
-                Surveillance en temps réel des serveurs (CPU, RAM, Docker, Processus, ...)
+                Supervision en temps réel des serveurs (CPU, RAM, Docker, Processus, ...)
             </ListItem>
         </Appear>
         <Appear>

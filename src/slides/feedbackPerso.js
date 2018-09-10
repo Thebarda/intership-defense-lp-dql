@@ -23,11 +23,6 @@ const slide = (
         </Appear>
         <Appear>
             <ListItem textSize={32}>
-                Meilleure approche des problèmatiques
-            </ListItem>
-        </Appear>
-        <Appear>
-            <ListItem textSize={32}>
                 Compétences dans les domaines Web, Mobile
             </ListItem>
         </Appear>

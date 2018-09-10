@@ -8,6 +8,7 @@ import {
 } from 'spectacle'
 import react from '../img/react.png'
 import html from '../img/htmlcssjs.png'
+import js from '../img/js.png'
 import webpack from '../img/webpack.png'
 import bs from '../img/bootstrap-logo.png'
 import node from '../img/node.jpg'
@@ -23,12 +24,13 @@ const slide = (
             </Appear>
         </List>
         <Appear>
-            <div>  
+            <div>
+                <img src={js} alt="js" style={{ position: 'absolute', width: "5rem", marginLeft: '-25rem', marginTop: '-.4rem' }} />
                 <img src={react} alt="react" style={{ position: 'absolute', width: "10rem", marginLeft: '-20rem' }} />
-                <img src={html} alt="react" style={{ position: 'absolute', width: "15rem", marginLeft: '-10rem' }} />
-                <img src={webpack} alt="react" style={{ position: 'absolute', width: "7rem", marginLeft: '7rem' }} />
-                <img src={bs} style={{ position: 'absolute', width: "7rem", marginLeft: '13rem' }} />
-                <img src={node} style={{ position: 'absolute', width: "9rem", marginLeft: '21rem', marginTop: '1rem' }} />
+                <img src={html} alt="react" style={{ position: 'absolute', width: "12rem", marginLeft: '-10rem' }} />
+                <img src={bs} style={{ position: 'absolute', width: "10rem", marginLeft: '.4rem', marginTop: '-1.5rem' }} />
+                <img src={webpack} alt="react" style={{ position: 'absolute', width: "7rem", marginLeft: '9rem' }} />
+                <img src={node} style={{ position: 'absolute', width: "9rem", marginLeft: '17rem', marginTop: '1rem' }} />
             </div>
         </Appear>
     </Slide>
